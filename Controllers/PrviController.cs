@@ -36,5 +36,10 @@ namespace Paup_2023.Controllers
             ViewBag.GodinaRođenja = 1432;
             return View();
         }
+
+        public string vratiVrijeme()
+        {
+            return DateTime.Now.ToString();
+        }
     }
 }
