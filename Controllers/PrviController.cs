@@ -31,9 +31,9 @@ namespace Paup_2023.Controllers
 
         public ActionResult Student()
         {
-            ViewBag.Ime = "Tomislav";
-            ViewBag.Prezime = "Sklepic";
-            ViewBag.GodinaRođenja = 2002;
+            ViewBag.Ime = "Dagoth";
+            ViewBag.Prezime = "Ur";
+            ViewBag.GodinaRođenja = 1432;
             return View();
         }
     }
